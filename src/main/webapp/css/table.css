@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS for the view-vaccines-container */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+.vaccines-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.vaccines-table th, .vaccines-table td {
+    text-align: left;
+    padding: 12px;
+}
+
+.vaccines-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.vaccines-table th {
+    background-color: #E9D8F5;
+    color: #360D52;
+}
+
+/* Style for the table links */
+.vaccines-table a {
+    color: #04AA6D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.vaccines-table a:hover {
+    text-decoration: none;
+}
+
+/* Style for back to dashboard link */
+.view-vaccines-container a {
+    margin-top: 20px;
+    padding: 2px 20px;
+    background-color: #EFE8F4;
+    color: #827F8A;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.view-vaccines-container a:hover {
+    background-color: #E9D8F5;
+}

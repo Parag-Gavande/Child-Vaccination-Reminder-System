@@ -1,0 +1,76 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.dash-content-container {
+  width: 100%; /* Adjust width or max-width as needed */
+  max-width: 700px; /* Adjust max-width as needed */
+  padding: 20px;
+}
+
+.dash-content header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.dash-content .form {
+  margin-top: 30px;
+  
+}
+
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-box label {
+  color: #333;
+}
+
+.form :where(.input-box input, .input-box textarea) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+
+.input-box textarea {
+  height: auto;
+  min-height: 100px;
+  padding: 15px;
+}
+
+.input-box input:focus, .input-box textarea:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form button {
+  height: 55px;
+  width: 100%;
+  color:#707070 ;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background:#E9D8F5;
+}
+
+.form button:hover {
+  background: #E2C6F5;
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+}
